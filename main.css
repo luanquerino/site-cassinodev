@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(69, 85, 39);
+    color: aliceblue;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.store-front {
+    margin-right: 32px;
+    height: 450px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+resize: none;
+height: 180px;
+}
+
+section {
+    background-color: rgb(204, 231, 158);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h2, h3 {
+    color: rgb(69, 85, 39);
+}
+
+section h2 {
+    font-size: 26px;
+}
+
+section h3 {
+    font-size: 18px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+section h3,
+section h2 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color:  rgb(69, 85, 39);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(126, 184, 18);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(126, 184, 18);
+}
+footer {
+    padding: 8px;
+    background-color: rgb(69, 85, 39);
+    color:aliceblue;
+    font-size: 18px; 
+}
